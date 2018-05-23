@@ -5,9 +5,9 @@ class Anagram
     @no_match = []
     @word = word
     end
-  
+
   def match(array)
-    array.detect |word| 
+    array.detect |word|
         if @word.split("").sort == word.split("").sort
             word
         else
