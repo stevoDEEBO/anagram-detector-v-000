@@ -1,7 +1,7 @@
 class Anagram
   attr_accessor :word
     @no_match = []
-    
+
   def initialize(word)
     @word = word
     end
